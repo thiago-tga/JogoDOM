@@ -1,0 +1,47 @@
+main
+{
+    color: rgb(9, 1, 27);
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("img/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+
+#bloco_jogo
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+#paragrafo
+{
+    align-items: center;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+#rodape
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 20px;
+}
+#Copyright{
+    align-items: center;
+}
